@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .black{
+        background-color: red;
+      }
+      .ver{
+        background-color: green;
+      }
+
+body{
+  background-color: black;
+}
+.box{
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  transform: translate(-50% -50%);
+  background-color: rgb(45, 50, 50);
+  padding: 20px 30px;
+  border-radius: 10%;
+  color: white;
+}
+h3{
+  text-align: center;
+  text-transform: uppercase;
+}
+.bt{
+margin-left: 40%;
+background-color: #777;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+color: #fff;
+}
+.bt:hover{
+  background-color: rgb(119, 4, 226);
+}
+input{
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  color: red;
+}
+
+    </style>
+</head>
+<body>
+  <div class="box">
+    <h3>coloque a data de hoje</h3>
+    <p>para receber sua mensagem do dia</p>
+  <p>dia<input  id="dat" type="number"></p>  
+   <p>mes<input  id="mes" type="number"></p> 
+  <p> ano<input  id="ano" type="number"></p> 
+    <input class="bt" onclick="btn()" type="button" value="Play">
+  </div>
+</body>
+<script src="nivi.js"></script>
+</html>
