@@ -126,7 +126,7 @@ var ano = Number(document.querySelector('#ano').value)
        
     } else if (datacolo === datas && datacolo === 25){
         if (mes === 5){
-            window.alert('to sem ideia, deixa passar essa?')
+            window.alert('ei, voce é o amor da minha vida viu, voce mora pra sempre no meu coraçao, vc sempre estara aqui, por todo sempre, nao inporta o que aconteça vc sempre estara aqui pois vc marcou minha vida pra melhor, voce é tudo pra min, as vezes me sinto o homem mais feliz do mundo so por ter vc aqui comigo, uma pessoa tao incrivel e maravilhosa, te amo vida')
         } else{
             window.alert('ainda nao estamos no mes em')
         }
