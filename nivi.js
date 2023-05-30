@@ -175,7 +175,7 @@ var ano = Number(document.querySelector('#ano').value)
        
     } else if (datacolo === datas && datacolo === 1){
         if (mes === 6){
-            window.alert('ta vamos la, espero que nao tenha perdido nem um dia, principalmente hoje, eu nao sei quantos dias isso vai ter masssss, no fim disso tudo a ultima mensagem sera um pedido de casamento, hu,mmmmmm pode ser amanha ou depois de amanha hummm quando serar emmmmm')
+            window.alert('era pra ser hoje mas vc burlou as regras agora vou colocar so quando eu quiser')
         } else{
             window.alert('ainda nao estamos no mes em')
         }
